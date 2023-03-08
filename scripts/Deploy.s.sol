@@ -7,7 +7,7 @@ import "contracts/RMM01Portfolio.sol";
 
 contract Deploy is Script {
     // Set address if deploying on a network with an existing weth.
-    address public __weth__; //= 0x575E4246f36a92bd88bcAAaEE2c51499B64116Ed;
+    address public __weth__; // = 0x663F3ad617193148711d28f5334eE4Ed07016602;
 
     event Deployed(address owner, address weth, address Portfolio);
 

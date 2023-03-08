@@ -31,6 +31,7 @@ test = 'test/echidna' # not default
 primitive = "${PRIMITIVE_RPC}"
 anvil = "http://127.0.0.1:8545"
 prod = "${MAINNET_URL}"
+arbitrum_test = "${ARBITRUM_TEST}"
 
 [fmt]
 line_length = 120
